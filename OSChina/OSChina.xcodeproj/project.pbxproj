@@ -13,6 +13,7 @@
 		6808D32A1CCCA65900862248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6808D3281CCCA65900862248 /* Main.storyboard */; };
 		6808D32C1CCCA65900862248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6808D32B1CCCA65900862248 /* Assets.xcassets */; };
 		6808D32F1CCCA65900862248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6808D32D1CCCA65900862248 /* LaunchScreen.storyboard */; };
+		6808D3381CCCA6CE00862248 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6808D3371CCCA6CE00862248 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6808D32B1CCCA65900862248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6808D32E1CCCA65900862248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6808D3301CCCA65900862248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6808D3361CCCA6CE00862248 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		6808D3371CCCA6CE00862248 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				6808D32D1CCCA65900862248 /* LaunchScreen.storyboard */,
 				6808D3301CCCA65900862248 /* Info.plist */,
 				6808D31F1CCCA65900862248 /* Supporting Files */,
+				6808D3361CCCA6CE00862248 /* person.h */,
+				6808D3371CCCA6CE00862248 /* person.m */,
 			);
 			path = OSChina;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				6808D3271CCCA65900862248 /* ViewController.m in Sources */,
 				6808D3241CCCA65900862248 /* AppDelegate.m in Sources */,
+				6808D3381CCCA6CE00862248 /* person.m in Sources */,
 				6808D3211CCCA65900862248 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				6808D3351CCCA65900862248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
